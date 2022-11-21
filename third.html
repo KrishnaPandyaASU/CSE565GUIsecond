@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Third Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="third_main_div" class="center" style="height: 650px ;overflow-y:scroll;background-color: burlywood">
+
+        <div id="third_que_div">
+            <h2 id="third_que">3) Which animal is shown in the image?</h2>
+        </div>
+        <div id="third_img_div">
+            <img id="third_img" src="images/giraffe_image.jpg" alt="animal" width="400" height="300"
+                style="color: chartreuse">
+        </div>
+
+        <div id="third_options">
+
+            <form action="/action_page.php">
+                  <input type="radio" id="third_radio_dog" name="fav_language" value="CSS">
+                  <label for="css">Dog</label><br>
+                  <input type="radio" id="third_radio_cat" name="fav_language" value="HTML">
+                  <label for="html">Cat</label><br> 
+                  <input type="radio" id="third_radio_giraffe" name="fav_language" value="JavaScript">
+                  <label for="javascript">Giraffe</label>
+
+                <br>
+                <br>
+                <br>
+
+                <div id="third_nav" class="check_answered">
+                    <label for="answered">Have you selected your answer?</label>
+                    <input type="checkbox" name="answered" id="checkbox_third">
+                </div>
+            </form>
+            <br><br>
+        </div>
+        <div id="third_nav" style="margin:10px ;">
+            <button id="third_back" style="background-color: lightsteelblue;"><a href="second.html"
+                    style="color: purple;font-size: 14px;">Back</a></button>
+        </div>
+    </div>
+
+</body>
+
+</html>

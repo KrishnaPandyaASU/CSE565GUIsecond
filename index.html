@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MCQ app</title>
+</head>
+
+<body>
+
+    <h1 id="first_header">Welcome to MCQ app</h1>
+
+    <div id="first_main_div" class="center" style="height: 650px ;overflow-y:scroll;background-color: grey">
+
+        <div id="first_que_div">
+            <h2 id="first_que">1) Which animal is shown in the image?</h2>
+        </div>
+        <div id="first_img_div">
+            <img id="first_img" src="images/cat_image.jpg" alt="animal" width="400" height="300">
+        </div>
+        <div>
+            <div id="first_options">
+                <form action="/action_page.php">
+                      <input type="radio" id="first_radio_dog" name="fav_language" value="dog">
+                      <label for="css">Dog</label><br>
+                      <input type="radio" id="first_radio_giraffe" name="fav_language" value="giraffe">
+                      <label for="javascript">Giraffe</label><br>
+                      <input type="radio" id="first_radio_cat" name="fav_language" value="cat">
+                      <label for="html">Cat</label>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="check_answered">
+                        <label for="answered">Have you selected your answer?</label>
+                        <input id="checkbox_first" type="checkbox" name="answered">
+                    </div>
+                </form>
+                <br><br>
+            </div>
+        </div>
+        <div id="first_nav" style="margin: 12px ;">
+            <button id="first_next" style="background-color: lightsteelblue;"><a href="second.html"
+                    style="color: green;font-size: 18px;">Next</a>
+            </button>
+        </div>
+</body>
+
+</html>
